@@ -1,0 +1,10 @@
+{
+  "name": "fetch-all-pages-common-async",
+  "version": "0.1.0",
+  "authors": [
+    "knightli <knightli@foxmail.com>"
+  ],
+  "description": "fetch all pages common , async version",
+  "license": "MIT",
+  "private": true
+}

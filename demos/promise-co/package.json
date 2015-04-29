@@ -1,0 +1,16 @@
+{
+  "name": "fetch-all-pages",
+  "version": "0.1.0",
+  "description": "fetch all pages data, promise with co version",
+  "scripts": {
+    "preinstall": "bower install ../../lib/fetch-all-pages-common-promise",
+    "start": "node --harmony lib/app.js"
+  },
+  "author": "knightli<knightli@foxmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.5.1"
+  },
+  "devDependencies": {}
+}
+

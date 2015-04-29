@@ -1,0 +1,13 @@
+{
+  "name": "fetch-all-pages",
+  "version": "0.1.0",
+  "description": "fetch all pages data, callback version",
+  "scripts": {
+    "preinstall": "bower install ../../lib/fetch-all-pages-common-callback",
+    "start": "node lib/app.js"
+  },
+  "author": "knightli<knightli@foxmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

@@ -1,0 +1,9 @@
+{
+  "name": "fetch-all-pages",
+  "version": "0.1.0",
+  "description": "fetch all pages data use callback, promise, co, async-await and ...",
+  "author": "knightli<knightli@foxmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

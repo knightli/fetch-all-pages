@@ -1,0 +1,16 @@
+{
+  "name": "fetch-all-pages",
+  "version": "0.1.0",
+  "description": "fetch all pages data, async version",
+  "scripts": {
+    "preinstall": "bower install ../../lib/fetch-all-pages-common-async-es6",
+    "start": "node booter.js"
+  },
+  "author": "knightli<knightli@foxmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "~5.1.13",
+    "systemjs": "^0.16.9"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,19 @@
+{
+  "name": "fetch-all-pages",
+  "version": "0.1.0",
+  "description": "fetch all pages data, async version",
+  "scripts": {
+    "preinstall": "bower install ../../lib/fetch-all-pages-common-async",
+    "start-tc": "node booter.tc.js",
+    "start-babel": "node booter.babel.js"
+  },
+  "author": "knightli<knightli@foxmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "~5.1.13",
+    "es6-module-loader": "~0.16.5",
+    "regenerator": "~0.8.22",
+    "traceur": "0.0.89"
+  },
+  "devDependencies": {}
+}

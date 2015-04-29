@@ -1,0 +1,18 @@
+{
+  "name": "fetch-all-pages",
+  "version": "0.1.0",
+  "description": "fetch all pages data, async version",
+  "scripts": {
+    "preinstall": "bower install ../../lib/fetch-all-pages-common-async",
+    "build": "browserify -e booter.js -t [ babelify --optional es7.asyncFunctions ] > booter.out.js",
+    "start": "node booter.out.js"
+  },
+  "author": "knightli<knightli@foxmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "~5.1.11",
+    "babelify": "~6.0.2",
+    "browserify": "~9.0.8"
+  }
+}
